@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SLA Court · parametric SLA credits on GenLayer</title>
+<meta name="description" content="Outage credits for internet and cloud SLAs, decided by GenLayer validators reading public status pages.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header>
+  <h1>SLA Court</h1>
+  <p class="lede">Outage credits for internet and cloud SLAs. Validators read the provider's public status page, agree on an exact incident record, and a fixed schedule decides the credit.</p>
+  <p class="net">GenLayer studionet (testnet) · no real money · contract <span id="addr"></span></p>
+  <p id="stats" class="muted">Reading the contract…</p>
+</header>
+<main>
+  <section>
+    <h2>How a claim is decided</h2>
+    <ol class="steps">
+      <li><b>File</b> an incident window (UTC) on an SLA, optionally with one incident page from a registered status-page host.</li>
+      <li><b>Assess</b>: every validator fetches the page itself and reduces it to <code>{verdict, overlaps, minutes (rounded down to 15), severity}</code>. They must match the leader exactly, or there is no decision.</li>
+      <li><b>Challenge window</b>: the customer or provider can appeal once; the round runs again.</li>
+      <li><b>Finalize</b>: the credit (schedule % of the monthly fee) moves from the pool to the customer. Unreadable or unclear pages pay nothing.</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Registered SLAs</h2>
+    <div id="slas" class="grid"></div>
+  </section>
+  <section>
+    <h2>Claims and verdicts</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Claim</th><th>SLA</th><th>Window (UTC)</th><th>Status</th><th>Canonical record</th><th>Credit</th><th></th></tr></thead>
+      <tbody id="claims"></tbody>
+    </table></div>
+  </section>
+  <section class="card">
+    <h2>File a claim</h2>
+    <p class="muted">Uses a burner key kept in this browser (studionet only, funded by the free test faucet). SLA #1 has open enrollment for the demo. One claim per incident per customer: windows of one customer on one SLA must be 24 h apart.</p>
+    <p>Your test key: <code id="me">none yet</code> <button id="wallet" type="button">Create / load test key</button></p>
+    <form id="claimform">
+      <label>SLA id <input name="sla" type="number" min="1" value="1" required></label>
+      <label>Start (UTC) <input name="start" type="datetime-local" value="2026-11-13T16:00" required></label>
+      <label>End (UTC) <input name="end" type="datetime-local" value="2026-11-13T18:00" required></label>
+      <label class="wide">Incident page (optional, same host as a registered status page)
+        <input name="evidence" type="url" placeholder="https://www.githubstatus.com/incidents/..." value="https://www.githubstatus.com/incidents/1xzmt89vv61l"></label>
+      <button type="submit">File claim</button>
+    </form>
+    <p>Your credit: <b id="credit" class="gold">-</b> <button id="withdraw" type="button" disabled>Withdraw credit</button></p>
+    <p id="log" class="log" role="status"></p>
+  </section>
+</main>
+<footer>
+  <p>Source, tests and live evidence: <a href="https://github.com/yoyoblair333-wq/slacourt">github.com/yoyoblair333-wq/slacourt</a> · <a href="https://github.com/yoyoblair333-wq/slacourt/blob/main/docs/LIVE_EVIDENCE.md">live evidence</a> · MIT</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

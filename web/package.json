@@ -1,0 +1,10 @@
+{
+  "name": "slacourt-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "SLA Court static web app: reads the live studionet contract and files claims with a per-browser testnet burner key.",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "genlayer-js": "1.1.8" },
+  "devDependencies": { "esbuild": "0.25.11" }
+}

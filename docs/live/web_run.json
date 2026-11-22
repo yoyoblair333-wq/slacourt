@@ -1,0 +1,83 @@
+{
+ "note": "Filed and assessed from the static web app (docs/index.html) in headless Chrome, signed by the page's own per-browser burner key.",
+ "steps": [
+  {
+   "step": "file_claim (web app)",
+   "tx": "0xb513985f69891bbc8130f17f19a83b7f4521b88d74c2b54043be7ae22b74ed1c",
+   "status": "FINALIZED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null
+  },
+  {
+   "step": "assess (web app)",
+   "tx": "0x96fc756fa600689bdb925f8dcbaf3760395a9c70fc15778029d04e80011e3b34",
+   "status": "FINALIZED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null
+  },
+  {
+   "step": "finalize (provider key; anyone may call)",
+   "tx": "0x8a47f67923aa635fc60e6b6dbff427745f1ca4a15530db011624af6fb9b11c5e",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "error": null
+  }
+ ],
+ "claim": {
+  "appeals": 0,
+  "assessed_at": "2026-11-22T20:19:42Z",
+  "capped": false,
+  "challenge_ends": "2026-11-22T20:22:42Z",
+  "credit": "100000000000000000",
+  "customer": "0xe5C313f263493DA8d47464940BC62AaD1b75eDa2",
+  "details": [
+   {
+    "end_utc": "2026-11-13T18:29",
+    "severity": "degraded",
+    "start_utc": "2026-11-13T15:47",
+    "status": "FOUND",
+    "url": "https://www.githubstatus.com/incidents/1xzmt89vv61l"
+   }
+  ],
+  "end": "2026-11-13T18:00Z",
+  "evidence_url": "https://www.githubstatus.com/incidents/1xzmt89vv61l",
+  "filed_at": "2026-11-22T20:19:34Z",
+  "finalized_at": "2026-11-22T20:23:07Z",
+  "id": 3,
+  "record": {
+   "minutes": 120,
+   "overlaps": true,
+   "severity": "degraded",
+   "verdict": "CONFIRMED"
+  },
+  "region": "global",
+  "sla_id": 1,
+  "start": "2026-11-13T16:00Z",
+  "status": "FINAL"
+ },
+ "customer_credit": "100000000000000000"
+}

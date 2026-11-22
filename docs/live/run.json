@@ -1,0 +1,629 @@
+{
+ "network": "studionet (chain 61999, https://studio.genlayer.com/api)",
+ "steps": [
+  {
+   "step": "deploy",
+   "tx": "0x58e4fa2a0efc621fd59d1845073980853c7b415488d4dfd024e6479cf10b2dbd",
+   "sent_at": "2026-11-22T20:15:25Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "register_sla (fund 3 GEN)",
+   "tx": "0xde618588468ee15e6d3a9ba70589ab01e82702c14f5668fa6e873d0205155d34",
+   "sent_at": "2026-11-22T20:15:35Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "file_claim #1 (real incident, window inside it)",
+   "tx": "0xd7abafc72dd45d7cd652839b913204625d5c3b5bf06248d3aff36dd1c9b9429c",
+   "sent_at": "2026-11-22T20:15:45Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "file_claim #2 (adversarial: window outside the incident)",
+   "tx": "0x94fce436418ca17392db40b6553ee1d82f99e9d79e08b3adb788688b802ca6d5",
+   "sent_at": "2026-11-22T20:15:54Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "agree",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "assess #1 (consensus)",
+   "tx": "0x8a58935f7d4ddd2a3274f678fbe58236d35b29db640f2be26eb2588c955defa2",
+   "sent_at": "2026-11-22T20:16:03Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "assess #2 (consensus)",
+   "tx": "0x086a3f69276ccc0de66894a23ac00171d9feb7723f8d83b49a1a9ce08d1baedc",
+   "sent_at": "2026-11-22T20:16:24Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "finalize #1",
+   "tx": "0xde25d55fb890f96463dad01845171dab470815b1cbc8f9dd7cb864d13764a3f6",
+   "sent_at": "2026-11-22T20:19:28Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "finalize #2",
+   "tx": "0x4b846b096d34b2f1acd7ffad35d886bfd942edf5946fed28a2bb8de48a211233",
+   "sent_at": "2026-11-22T20:19:53Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "agree",
+     "agree"
+    ],
+    "error": null
+   }
+  },
+  {
+   "step": "withdraw_credit #1",
+   "tx": "0xdcc6784f8f27f5b59677f90915eb1a6b9c230c28ba808ad34a7d43ee2f62a2e6",
+   "sent_at": "2026-11-22T20:20:05Z",
+   "status": "ACCEPTED",
+   "result": "MAJORITY_AGREE",
+   "execution": "SUCCESS",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "error": null,
+   "latest": {
+    "status": "FINALIZED",
+    "result": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "votes": [
+     "agree",
+     "agree",
+     "agree",
+     "idle",
+     "idle"
+    ],
+    "error": null
+   }
+  }
+ ],
+ "roles": {
+  "provider": "0xdBAb9950c8Ee3F4F469c29B4750076640aE2d98a",
+  "customer": "0xc73Ff5fb68a8A7A2b5A1643563D6A750C86Bc36b",
+  "customer2": "0x78f91B0AF2ed3d48AAe74E8Db32bfc566D98Aa2f"
+ },
+ "funded_provider": true,
+ "funded_customer": true,
+ "funded_customer2": true,
+ "contract": "0x8C75bF4119BA8ae6875E62705Bde3bDAb7DF5f2a",
+ "challenge_minutes": 3,
+ "explorer": "https://explorer-studio.genlayer.com/address/0x8C75bF4119BA8ae6875E62705Bde3bDAb7DF5f2a",
+ "sla_after_register": {
+  "allowed_downtime_min_x10": 432,
+  "balance": "3000000000000000000",
+  "claims": 0,
+  "created_at": "2026-11-22T20:15:35Z",
+  "encumbered": "0",
+  "free": "3000000000000000000",
+  "id": 1,
+  "min_severity": "degraded",
+  "monthly_fee": "1000000000000000000",
+  "open_enrollment": true,
+  "paid": "0",
+  "provider": "0xdBAb9950c8Ee3F4F469c29B4750076640aE2d98a",
+  "region": "global",
+  "service": "Pull Requests",
+  "tiers": [
+   [
+    43,
+    10
+   ],
+   [
+    240,
+    25
+   ]
+  ],
+  "uptime_bp": 9990,
+  "urls": [
+   "https://www.githubstatus.com/history"
+  ]
+ },
+ "claims_after_assess": {
+  "1": {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:02Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:02Z",
+   "credit": "100000000000000000",
+   "customer": "0xc73Ff5fb68a8A7A2b5A1643563D6A750C86Bc36b",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T15:45Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:44Z",
+   "finalized_at": "",
+   "id": 1,
+   "record": {
+    "minutes": 225,
+    "overlaps": true,
+    "severity": "degraded",
+    "verdict": "CONFIRMED"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T12:00Z",
+   "status": "ASSESSED"
+  },
+  "2": {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:23Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:23Z",
+   "credit": "0",
+   "customer": "0x78f91B0AF2ed3d48AAe74E8Db32bfc566D98Aa2f",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T21:00Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:54Z",
+   "finalized_at": "",
+   "id": 2,
+   "record": {
+    "minutes": 0,
+    "overlaps": false,
+    "severity": "none",
+    "verdict": "NO_OVERLAP"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T19:00Z",
+   "status": "ASSESSED"
+  }
+ },
+ "claims_final": {
+  "1": {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:02Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:02Z",
+   "credit": "100000000000000000",
+   "customer": "0xc73Ff5fb68a8A7A2b5A1643563D6A750C86Bc36b",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T15:45Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:44Z",
+   "finalized_at": "2026-11-22T20:19:28Z",
+   "id": 1,
+   "record": {
+    "minutes": 225,
+    "overlaps": true,
+    "severity": "degraded",
+    "verdict": "CONFIRMED"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T12:00Z",
+   "status": "FINAL"
+  },
+  "2": {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:23Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:23Z",
+   "credit": "0",
+   "customer": "0x78f91B0AF2ed3d48AAe74E8Db32bfc566D98Aa2f",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T21:00Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:54Z",
+   "finalized_at": "2026-11-22T20:19:52Z",
+   "id": 2,
+   "record": {
+    "minutes": 0,
+    "overlaps": false,
+    "severity": "none",
+    "verdict": "NO_OVERLAP"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T19:00Z",
+   "status": "FINAL"
+  }
+ },
+ "credit_before_withdraw": "100000000000000000",
+ "credit_after_withdraw": "0",
+ "sla_final": {
+  "allowed_downtime_min_x10": 432,
+  "balance": "2900000000000000000",
+  "claims": 3,
+  "created_at": "2026-11-22T20:15:35Z",
+  "encumbered": "100000000000000000",
+  "free": "2800000000000000000",
+  "id": 1,
+  "min_severity": "degraded",
+  "monthly_fee": "1000000000000000000",
+  "open_enrollment": true,
+  "paid": "100000000000000000",
+  "provider": "0xdBAb9950c8Ee3F4F469c29B4750076640aE2d98a",
+  "region": "global",
+  "service": "Pull Requests",
+  "tiers": [
+   [
+    43,
+    10
+   ],
+   [
+    240,
+    25
+   ]
+  ],
+  "uptime_bp": 9990,
+  "urls": [
+   "https://www.githubstatus.com/history"
+  ]
+ },
+ "stats": {
+  "challenge_minutes": 3,
+  "claim_gap_hours": 24,
+  "claims": 3,
+  "max_appeals": 1,
+  "owner": "0xdBAb9950c8Ee3F4F469c29B4750076640aE2d98a",
+  "round_to_minutes": 15,
+  "schema": "slacourt.v1",
+  "slas": 1,
+  "verdicts": [
+   "CONFIRMED",
+   "NO_OVERLAP",
+   "NO_INCIDENT",
+   "AMBIGUOUS",
+   "UNREADABLE"
+  ]
+ },
+ "finished_at": "2026-11-22T20:20:19Z",
+ "withdraw_triggered": [
+  {
+   "tx": "0x8d89dd7977fd0cc341d440afab9b1184b5ec9c6cfed923b5577989e4beb6c22d",
+   "status": "FINALIZED",
+   "result": "NO_MAJORITY",
+   "execution": "ERROR",
+   "votes": [],
+   "error": null,
+   "to": "0xc73Ff5fb68a8A7A2b5A1643563D6A750C86Bc36b",
+   "value": "100000000000000000",
+   "value_credited": false
+  }
+ ],
+ "sla_now": {
+  "allowed_downtime_min_x10": 432,
+  "balance": "2800000000000000000",
+  "claims": 3,
+  "created_at": "2026-11-22T20:15:35Z",
+  "encumbered": "0",
+  "free": "2800000000000000000",
+  "id": 1,
+  "min_severity": "degraded",
+  "monthly_fee": "1000000000000000000",
+  "open_enrollment": true,
+  "paid": "200000000000000000",
+  "provider": "0xdBAb9950c8Ee3F4F469c29B4750076640aE2d98a",
+  "region": "global",
+  "service": "Pull Requests",
+  "tiers": [
+   [
+    43,
+    10
+   ],
+   [
+    240,
+    25
+   ]
+  ],
+  "uptime_bp": 9990,
+  "urls": [
+   "https://www.githubstatus.com/history"
+  ]
+ },
+ "claims_now": [
+  {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:19:42Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:22:42Z",
+   "credit": "100000000000000000",
+   "customer": "0xe5C313f263493DA8d47464940BC62AaD1b75eDa2",
+   "details": [
+    {
+     "end_utc": "2026-11-13T18:29",
+     "severity": "degraded",
+     "start_utc": "2026-11-13T15:47",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/1xzmt89vv61l"
+    }
+   ],
+   "end": "2026-11-13T18:00Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/1xzmt89vv61l",
+   "filed_at": "2026-11-22T20:19:34Z",
+   "finalized_at": "2026-11-22T20:23:07Z",
+   "id": 3,
+   "record": {
+    "minutes": 120,
+    "overlaps": true,
+    "severity": "degraded",
+    "verdict": "CONFIRMED"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-13T16:00Z",
+   "status": "FINAL"
+  },
+  {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:23Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:23Z",
+   "credit": "0",
+   "customer": "0x78f91B0AF2ed3d48AAe74E8Db32bfc566D98Aa2f",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T21:00Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:54Z",
+   "finalized_at": "2026-11-22T20:19:52Z",
+   "id": 2,
+   "record": {
+    "minutes": 0,
+    "overlaps": false,
+    "severity": "none",
+    "verdict": "NO_OVERLAP"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T19:00Z",
+   "status": "FINAL"
+  },
+  {
+   "appeals": 0,
+   "assessed_at": "2026-11-22T20:16:02Z",
+   "capped": false,
+   "challenge_ends": "2026-11-22T20:19:02Z",
+   "credit": "100000000000000000",
+   "customer": "0xc73Ff5fb68a8A7A2b5A1643563D6A750C86Bc36b",
+   "details": [
+    {
+     "end_utc": "2026-11-16T15:55",
+     "severity": "degraded",
+     "start_utc": "2026-11-16T09:30",
+     "status": "FOUND",
+     "url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3"
+    }
+   ],
+   "end": "2026-11-16T15:45Z",
+   "evidence_url": "https://www.githubstatus.com/incidents/2zfqmghmg3s3",
+   "filed_at": "2026-11-22T20:15:44Z",
+   "finalized_at": "2026-11-22T20:19:28Z",
+   "id": 1,
+   "record": {
+    "minutes": 225,
+    "overlaps": true,
+    "severity": "degraded",
+    "verdict": "CONFIRMED"
+   },
+   "region": "global",
+   "sla_id": 1,
+   "start": "2026-11-16T12:00Z",
+   "status": "FINAL"
+  }
+ ],
+ "rendered_at": "2026-11-22T20:23:29Z"
+}

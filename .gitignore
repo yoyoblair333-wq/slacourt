@@ -1,0 +1,9 @@
+.slacourt/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+artifacts/
+node_modules/
+PORTAL_FIELDS.md
+.env
